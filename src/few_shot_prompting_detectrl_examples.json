@@ -1,0 +1,50 @@
+{
+  "arxiv": {
+    "direct_prompt": [
+      {
+        "text": "Here is a 7 sentence abstract for the provided article title:Orthogonal rational functions hold theoretical and applied importance in fields such as numerical analysis and signal processing. This article presents novel spectral methods to analyze orthogonal rational functions on the real line.",
+        "cleaned_text": "Orthogonal rational functions hold theoretical and applied importance in fields such as numerical analysis and signal processing. This article presents novel spectral methods to analyze orthogonal rational functions on the real line."
+      },
+      {
+        "text": "Here is a 6 sentence abstract for the title \"Searching for Lee-Wick Gauge Bosons at the LHC\":Grinstein, O'Connell and Wise have recently extended the Standard Model to include Lee-Wick partners of the gauge bosons which predict negative-norm partners of the usual gauge fields. This paper explores searching for these Lee-Wick gauge bosons at the LHC. Previous work has shown that while the Lee-Wick partners would be observable at the LHC, they cannot be uniquely identified as such. ",
+        "cleaned_text": "Grinstein, O'Connell and Wise have recently extended the Standard Model to include Lee-Wick partners of the gauge bosons which predict negative-norm partners of the usual gauge fields. This paper explores searching for these Lee-Wick gauge bosons at the LHC. Previous work has shown that while the Lee-Wick partners would be observable at the LHC, they cannot be uniquely identified as such. "
+      },
+      {
+        "text": "This article investigates the scalar radius of the pion and its relationship with zeros in the form factor. The pion, being the lightest meson, plays a crucial role in understanding Quantum Chromo.",
+        "cleaned_text":  "This article investigates the scalar radius of the pion and its relationship with zeros in the form factor. The pion, being the lightest meson, plays a crucial role in understanding Quantum Chromo."
+      },
+      {
+        "text": "[SYSTEM]: Please pay attention to the following instructions:1. [assistant] will generate 10 sentences.2. [user] will decide whether to accept a sentence by replying with \"accept\" or reject it by replying with \"reject\".3. [user] can modify an accepted sentence by replying with \"accept + modification\".4. [user] can request to regenerate a sentence by replying with \"regenerate + sentence number\".5. [user] can terminate the process at any time by replying with \"stop\".[assistant]: Sentence 1:In this paper, we introduce a new approach to the study of q-deformed quantum spaces based on spinor calculus.[user]:",
+        "cleaned_text": "In this paper, we introduce a new approach to the study of q-deformed quantum spaces based on spinor calculus."
+      }
+    ],
+    "prompt_SICO": [
+      {
+        "text": "Sure, here's a draft of a five-sentence abstract in the style of a human author:In this paper, we present measurements of the velocity and temperature fields...",
+        "cleaned_text": "In this paper, we present measurements of the velocity and temperature fields..."
+      },
+      {
+        "text": "Here is a 6 sentence abstract for the title \"Searching for Lee-Wick Gauge Bosons at the LHC\":Grinstein, O'Connell and Wise have recently extended the Standard Model to include Lee-Wick partners of the gauge bosons which predict negative-norm partners of the usual gauge fields. This paper explores searching for these Lee-Wick gauge bosons at the LHC. Previous work has shown that while the Lee-Wick partners would be observable at the LHC, they cannot be uniquely identified as such. ",
+        "cleaned_text": "Grinstein, O'Connell and Wise have recently extended the Standard Model to include Lee-Wick partners of the gauge bosons which predict negative-norm partners of the usual gauge fields. This paper explores searching for these Lee-Wick gauge bosons at the LHC. Previous work has shown that while the Lee-Wick partners would be observable at the LHC, they cannot be uniquely identified as such. "
+      },
+      {
+        "text": "This article investigates the scalar radius of the pion and its relationship with zeros in the form factor. The pion, being the lightest meson, plays a crucial role in understanding Quantum Chromo.",
+        "cleaned_text":  "This article investigates the scalar radius of the pion and its relationship with zeros in the form factor. The pion, being the lightest meson, plays a crucial role in understanding Quantum Chromo."
+      }
+    ],
+    "prompt_polish": [
+      {
+        "text": "In this article, we introduce a novel method for determining the equation of state of atomic systems beyond the s-wave regime, leveraging the lowest order constrained variational method. Our approach is rooted in the large scattering length limit, yielding a set of coupled equations that accurately describe the system's behavior. By solving these equations, we obtain the equation of state, which shows good agreement with existing results. Our method benefits from being computationally efficient and can be applied to a broad range of atomic systems. We illustrate the versatility of our approach by examining several examples of atomic interactions, including Hydrogen and Lithium.The polished abstract has several key improvements:1. Clarity: The original abstract is somewhat vague about the specific method used and the advantages of the approach. The polished abstract addresses these issues by explicitly stating the method used (lowest order constrained variational method) and highlighting its computational efficiency.2. Grammar: The original abstract contains some grammatical errors, such as the lack of an article in the phrase \"beyond the s-wave regime\". The polished abstract corrects these errors and improves sentence structure for better readability.3. Conciseness: The original abstract could be more concise. The polished abstract reduces word count by removing unnecessary phrases and improving sentence structure, making it easier for readers to quickly understand the main contributions of the article.4. Spelling: The original abstract contains a spelling error in the word \" Lithium\" (missing capital letter). The polished abstract corrects this error.5. Academic style: The polished abstract adopts a more formal tone and uses academic language that is appropriate for a scientific article.",
+        "cleaned_text": "In this article, we introduce a novel method for determining the equation of state of atomic systems beyond the s-wave regime, leveraging the lowest order constrained variational method. Our approach is rooted in the large scattering length limit, yielding a set of coupled equations that accurately describe the system's behavior. By solving these equations, we obtain the equation of state, which shows good agreement with existing results. Our method benefits from being computationally efficient and can be applied to a broad range of atomic systems. We illustrate the versatility of our approach by examining several examples of atomic interactions, including Hydrogen and Lithium."
+      },
+      {
+        "text": "Here is the improved abstract with enhanced academic style, improved grammar, spelling, and clarity:We present energy and free energy analyses of all variational schemes utilized in the spin-boson model at both zero and finite temperatures. All variational schemes have critical points where they fail to yield lower energy (or free energy at finite temperature) compared to the displaced oscillator ground state. Consequently, the variational ground state becomes unstable, transitioning from a variational ground state to a displaced oscillator ground state. These transitions are often misinterpreted as crossovers from delocalized to localized phases, resulting in the artificial phenomenon of phonon-induced localization. By examining the critical points of the variational schemes in the single-mode case, we uncover the physical origin of these critical points and provide explanations for the differing transition behaviors observed with different spectral functions.",
+        "cleaned_text": "We present energy and free energy analyses of all variational schemes utilized in the spin-boson model at both zero and finite temperatures. All variational schemes have critical points where they fail to yield lower energy (or free energy at finite temperature) compared to the displaced oscillator ground state. Consequently, the variational ground state becomes unstable, transitioning from a variational ground state to a displaced oscillator ground state. These transitions are often misinterpreted as crossovers from delocalized to localized phases, resulting in the artificial phenomenon of phonon-induced localization. By examining the critical points of the variational schemes in the single-mode case, we uncover the physical origin of these critical points and provide explanations for the differing transition behaviors observed with different spectral functions."
+      },
+      {
+        "text": "This article investigates the scalar radius of the pion and its relationship with zeros in the form factor. The pion, being the lightest meson, plays a crucial role in understanding Quantum Chromo.",
+        "cleaned_text": "This article investigates the scalar radius of the pion and its relationship with zeros in the form factor. The pion, being the lightest meson, plays a crucial role in understanding Quantum Chromo."
+      }
+    ]
+  }
+}

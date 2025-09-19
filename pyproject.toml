@@ -1,0 +1,67 @@
+[project]
+name = "maenv"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = "<4,>=3.12"
+dependencies = [
+    "numpy (>=2,<2.2.0)",
+    "datasets (>=3.6.0,<4.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "wordcloud (>=1.9.4,<2.0.0)",
+    "matplotlib (>=3.10.3,<4.0.0)",
+    "nltk (>=3.9.1,<4.0.0)",
+    "plotly (>=6.1.0,<7.0.0)",
+    "sentence-transformers (>=4.1.0,<5.0.0)",
+    "umap-learn (>=0.5.7,<0.6.0)",
+    "hdbscan (>=0.8.40,<0.9.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "rank-bm25 (>=0.2.2,<0.3.0)",
+    "selenium (>=4.33.0,<5.0.0)",
+    "textattack (>=0.3.10,<0.4.0)",
+    "tensorflow-hub (>=0.16.1,<0.17.0)",
+    "notebook (>=7.4.4,<8.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "ma_env", from = "src"}]
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+
+
+[tool.poetry.group.binoculars.dependencies]
+sentencepiece = "^0.2.0"
+datasets = "^3.6.0"
+numpy = ">=2,<2.2.0"
+gradio = "^5.31.0"
+gradio-client = "^1.10.1"
+scikit-learn = "^1.6.1"
+seaborn = "^0.13.2"
+pandas = "^2.2.3"
+transformers = {extras = ["torch"], version = "^4.52.3"}
+
+
+[tool.poetry.group.data_generation.dependencies]
+anthropic = "^0.54.0"
+openai = "^1.86.0"
+google-generativeai = "^0.8.5"
+googletrans = "^4.0.2"
+deepl = "^1.22.0"
+google-cloud-translate = "^3.21.1"
+
+
+[tool.poetry.group.XAI.dependencies]
+shap = "^0.48.0"
+bertviz = "^1.4.1"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
