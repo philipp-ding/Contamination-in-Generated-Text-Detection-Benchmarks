@@ -55,8 +55,17 @@ as it was not possible for us to manually review all of the over 50,000 samples.
 please let us know via an issue or pull request.
 
 ## Authors and acknowledgment
-The paper (TODO add link) was written in collaboration with and under the supervision of [Christian Riess](https://www.cs1.tf.fau.de/christian-riess/).
+The paper was written in collaboration with and under the supervision of [Christian Riess](https://www.cs1.tf.fau.de/christian-riess/).
 
-## License
-TODO
+## ✏️ Citation
+
+If you are using the data, please cite our paper as well as the original DetectRL publication:
+```
+@article{wu2024detectrl,
+  title={DetectRL: Benchmarking LLM-Generated Text Detection in Real-World Scenarios},
+  author={Wu, Junchao and Zhan, Runzhe and Wong, Derek F and Yang, Shu and Yang, Xinyi and Yuan, Yulin and Chao, Lidia S},
+  journal={arXiv preprint arXiv:2410.23746},
+  year={2024}
+}
+```
 
