@@ -148,15 +148,13 @@ DetectRL/
 - `statistics_readability.py`: Assesses the readability of texts.
 - `statistics_text_length.py`: Measures the length of texts.
 - `heatmap_cross_attacks.py`, `heatmap_cross_domains.py`, `heatmap_cross_models.py`: Create heatmaps for various comparison dimensions.
-- `radar.py`: Visualizes benchmark results as a radar chart.
 - `training_time_test_time_text_length_impact.py`: Investigates the impact of text length on training and test times.
 - `get_arxiv_data.py`, `get_writing_prompt_data.py`, `get_xsum_data.py`, `get_yelp_review_data.py`: Load and preprocess original datasets.
 - `benchmark construction.py`, `data_generation.py`, `data_mixing.py`: Generation and mixing of benchmark data.
-- `Chat_API.py`: Interface to chat APIs.
-- `DIPPER.py`: Implementation of the DIPPER detector.
-- `binoculars_detector.py`, `DetectGPT.py`, `entropy.py`, `Fast_DetectGPT.py`, `rank.py`, `loss.py`: Various detectors and utility functions.
+- `Chat_API.py`: Interface to different LLM APIs.
+- `DIPPER.py`: Implementation of the DIPPER paraphraser.
+- `radar.py` `binoculars_detector.py`, `DetectGPT.py`, `entropy.py`, `Fast_DetectGPT.py`, `rank.py`, `loss.py`: Various detectors and utility functions.
 - `train_roberta.py`, `train_roberta_detect_RL.py`: Training Roberta models for text detection.
 - `metrics.py`: Calculation of evaluation metrics.
 - `evaluate_roberta_detect_RL_generalisation_results.ipynb`: Jupyter notebook for generalization analysis.
-- `detectrl-framework.png`, `detectrl-svg.svg`: Framework visualizations.
-- `attacks_evaluation.sh`, `data_generation.sh`, `domains_evaluation.sh`, etc.: Automation scripts for various evaluation and generation tasks.
+- `attacks_evaluation.sh`, `data_generation.sh`, `domains_evaluation.sh`, etc.: sh-files from DetectRL to re-execute the DetectRL paper results (not all might be correct/ work -> see "Issues" of DetectRL paper; for train_roberta.py e.g. the test-dataset is used twice (for training and testing) in the sh files)
